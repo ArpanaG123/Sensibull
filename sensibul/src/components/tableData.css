@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@500&family=Rowdies:wght@700&display=swap');
+
+.StockPage{
+    background-image: linear-gradient(to right,#4158d0,#c850c0);
+    padding:70px 60px 100px;
+}
+
+.tableData{
+    margin: auto;
+    width:900px;
+    border: solid;
+}
+
+th{
+    background-color:#749F82;
+    color: white;
+    font-size: 16px;
+    font-weight:500;
+    height:30px;
+}
+
+td{
+    color:#65647C;
+    font-size: 14px;
+    font-family: 'poplin',sans-serif;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    height:40px;
+    background-color:#ECECEC;
+}
+
+tr:nth-child(odd) {
+    height:40px;
+    background-color:#DDDDDD;
+}
+
+.stockHeading{
+    color:#222222;
+    margin-top: -4%;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+.symbol{
+    cursor: pointer;
+}
+
+.SearchBar{
+    width:200px;
+    height: 25px;
+    margin-left:68%;
+    margin-bottom: 20px;
+    border-radius:5px;
+    border: none;
+    background-color:#FAF7F0;
+}
+
+.QuoteHeading{
+    color:#222222;
+    margin-top: -4%;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+.quotePage{
+    background-image: linear-gradient(to right,#4158d0,#c850c0);
+    padding:70px 60px 100px;
+    height: 700px;
+}
+
+.textQuote{
+    color:black;
+    margin-top:5%;
+}
