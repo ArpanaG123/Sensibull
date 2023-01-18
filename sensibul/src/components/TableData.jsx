@@ -9,7 +9,7 @@ function TableData() {
   
   useEffect(() => {
     setLoading(true)
-    fetch("http://localhost:7080/api/home")
+    fetch("https://sensibull-five.vercel.app/api/home")
       .then(response => response.json())
       .then(json => setUsers(json))
       .finally(() => {

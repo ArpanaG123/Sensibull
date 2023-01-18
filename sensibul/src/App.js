@@ -10,6 +10,7 @@ function App() {
         <Route exact path = "/"  element = {<TableData />} />
       </Routes>
     </BrowserRouter>
+    
   );
 }
 
